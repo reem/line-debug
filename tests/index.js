@@ -38,11 +38,11 @@ describe('line-debug', function () {
 
   it('should log the correct line number', function () {
     debug("Hello"); // Pay attention if you move this line!!!
-    demand(logged).to.match(/Module: Test Line: 40.*/);
+    demand(logged).to.match(/Module: Test -- Line: 40.*/);
   });
 
   it('should log the correct message and format', function () {
     debug("Hello");
-    demand(logged).to.match(/Module: Test Line: \d+ -- Hello/);
+    demand(logged).to.match(/Module: Test -- Line: \d+ -- Hello/);
   });
 });
