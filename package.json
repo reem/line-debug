@@ -6,6 +6,7 @@
     "email": "jonathan.reem@gmail.com",
     "url": "https://github.com/reem"
   },
+  "main": "lib/index.js",
   "repository": "reem/line-debug",
   "dependencies": {},
   "scripts": {
