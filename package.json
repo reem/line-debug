@@ -1,0 +1,22 @@
+{
+  "name": "line-debug",
+  "version": "0.0.0",
+  "author": {
+    "name": "Jonathan Reem",
+    "email": "jonathan.reem@gmail.com",
+    "url": "https://github.com/reem"
+  },
+  "repository": "reem/line-debug",
+  "dependencies": {},
+  "scripts": {
+    "test": "./node_modules/gulp/bin/gulp.js test"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "must": "*",
+    "gulp": "*",
+    "gulp-jshint": "*",
+    "gulp-mocha": "*",
+    "jshint-stylish": "*"
+  }
+}
